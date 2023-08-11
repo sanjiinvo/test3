@@ -10,7 +10,7 @@ const App = () => {
       try {
         const response = await axios.get('https://cloud.iexapis.com/stable/tops', {
           params: {
-            token: 'pk_c9646e0ddd1c49b0927016026326c1b2',
+            token: 'TOKEN',
           },
         });
         setStockData(response.data);
